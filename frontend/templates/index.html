@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthcare AI Agent</title>
+</head>
+<body>
+    <h1>Healthcare AI Assistant</h1>
+    <form action="/process" method="post">
+        <textarea name="user_input" rows="5" cols="50" placeholder="Type your message here..."></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+
+    {% if response %}
+        <h3>AI Response:</h3>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
