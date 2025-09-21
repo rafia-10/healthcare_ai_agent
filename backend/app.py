@@ -15,6 +15,6 @@ def home():
 
 @app.route('/process', methods=['POST'])
 def process_input():
-    user_input = request.json.get("user_input")
+    user_input = request.form.get("user_input")
     response_text = handle_user_input(user_input)
     return render_template("index.html", response=response_text)
