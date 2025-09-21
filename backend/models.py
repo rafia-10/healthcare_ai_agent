@@ -15,7 +15,7 @@ def init_db():
             patient_name TEXT NOT NULL,
             doctor TEXT NOT NULL,
             datetime TEXT NOT NULL,
-            email TEXT NOT NULL,
+            email TEXT ,
             status TEXT DEFAULT 'scheduled'
         )
     ''')
