@@ -7,8 +7,11 @@
 
 
 Role Chosen: Healthcare Customer Support Agent
+
 Industry: Healthcare / Clinics
+
 Why this role?
+
 The role focuses on repetitive, high-value tasks like booking appointments and answering FAQs. Automating this reduces staff workload, improves patient satisfaction, and provides measurable business value. It’s specific, easy to demo in 1 day, and aligns with the assessment rubric.
 
 
