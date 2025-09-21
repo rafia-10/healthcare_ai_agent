@@ -1,5 +1,5 @@
 import sqlite3
-from backend.models import DB_PATH
+from models import DB_PATH
 
 # --- Appointment helpers ---
 def add_appointment(patient_name, doctor, datetime, email):
